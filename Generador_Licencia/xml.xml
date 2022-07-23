@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<propietarios>
+    <propietario>
+        <domicilio>Queretaro</domicilio>
+        <nombre>Juan</nombre>
+        <RFC>123456</RFC>
+    </propietario>
+</propietarios>
+libreria(simplexml)

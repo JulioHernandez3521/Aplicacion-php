@@ -1,0 +1,15 @@
+<?php
+	$Manejador = fopen("DATOS.txt", "r");
+	$Manejador2 = fopen("DATOS(2).txt", "a+");
+	while(!feof($Manejador)){
+		$Linea = fgets($Manejador);
+		$Salto = nl2br($Linea);
+		print($Salto);
+		fputs($Manejador2, $Salto);
+	}
+
+	
+	fclose($Manejador);
+	fclose($Manejador2);
+	
+?>
